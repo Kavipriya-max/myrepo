@@ -24,6 +24,7 @@ public class Encapsulation {
 		public void setDept(String dept) {
 			this.dept = dept;
 		}
+		 
 		
 		public static void main(String[] args) {
 			//class name  obj name=keyword refer name
@@ -31,7 +32,7 @@ public class Encapsulation {
 			obj.setName("kavi");
 			obj.setAge(20);
 			obj.setDept("CSE");
-		 System.out.println(obj.age);
+		   System.out.println(obj.age);
 		}
         
 	}
